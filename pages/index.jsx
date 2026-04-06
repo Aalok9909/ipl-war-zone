@@ -6,7 +6,7 @@ import {
   query, serverTimestamp, doc, setDoc, increment 
 } from 'firebase/firestore';
 import { 
-  getAuth, 
+  getAuth,
   onAuthStateChanged, 
   createUserWithEmailAndPassword, 
   signInWithEmailAndPassword, 
